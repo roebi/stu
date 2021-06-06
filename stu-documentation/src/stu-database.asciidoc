@@ -52,11 +52,11 @@ c.s.s.database.generator.DataSetGenerator [INFO]: created 1 Table Adapters
 ----
 
 |=======
-|SonferenzDataSet | Eine Factory + Builder für eine DBUnit DataSet der modelierten Datenbank "Sonferenz" :
+|SonferenzDataSet | Eine Factory + Builder fÃ¼r eine DBUnit DataSet der modelierten Datenbank "Sonferenz" :
 
-    Enthält alle Tabellen als table_* Variablen.
+    EnthÃ¤lt alle Tabellen als table_* Variablen.
     Durch die Methode createDBUnitDataSet() aus dem Interface DbUnitDatasetFactory kann ein DBUnit DataSet erzeugt werden.
-    Zur Initialisierung/Einfügen von weiteren Zeilen, solltem in einer abgeleitete Klasse die Methode initDataSet() überschrieben werden.
+    Zur Initialisierung/EinfÃ¼gen von weiteren Zeilen, solltem in einer abgeleitete Klasse die Methode initDataSet() Ã¼berschrieben werden.
     
 |UsersTable | Eine DBUnit ITable Implementierung der "Users" Tabelle.
 

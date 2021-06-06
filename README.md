@@ -21,12 +21,12 @@ Dependencies needed in your project's pom.xml :
     <dependency>
       <groupId>com.seitenbau.stu</groupId>
       <artifactId>stu-common</artifactId>
-      <version>0.2.0-RC4</version>
+      <version>0.2.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.seitenbau.stu</groupId>
       <artifactId>stu-database</artifactId>
-      <version>0.2.0-RC4</version>
+      <version>0.2.1-SNAPSHOT</version>
     </dependency>
 
 # Use STU in a gradle project
@@ -36,18 +36,26 @@ Dependencies needed in your project's pom.xml :
     repositories {
       mavenCentral()
       maven { url "http://dl.bintray.com/seitenbau/utils" }
+      mavenLocal()
     }
     
     dependencies {
-      compile("com.seitenbau.stu:stu-common:0.2.0-RC4")
-      compile("com.seitenbau.stu:stu-database:0.2.0-RC4")
+      compile("com.seitenbau.stu:stu-common:0.2.1-SNAPSHOT")
+      compile("com.seitenbau.stu:stu-database:0.2.1-SNAPSHOT")
     }
 
 # Build STU
 
-Either use provided gradlew or you need gradle (<2.0) 1.8 installed. STU currently only compiles with a JDK 1.7.
+Use provided gradlew installed. STU currently only compiles with a JDK 1.8.
 
 	gradlew build
+
+
+# local Installation STU
+
+Used with mavenLocal() (typically at $USER_HOME/.m2/repository).
+
+	gradlew install
 
 
 ## Build Documentation

@@ -1,5 +1,9 @@
 = Changelog
 
+== 0.2.1-SNAPSHOT (2021-06)
+
+* Update used Versions to: gradle-6.8.3 (was gradle-1.10), Java 1.8 (was 1.6), dependencies updates, in Documentation add use of Maven Local
+
 == upcomming (2014-mm-dd)
 
 * Improved page documentation
